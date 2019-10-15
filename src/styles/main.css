@@ -1,3 +1,10 @@
-body {
-    background-color: blue;
+.foodList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foodItem {
+    border: 1px solid darkred;
+    padding: 10px;
 }
